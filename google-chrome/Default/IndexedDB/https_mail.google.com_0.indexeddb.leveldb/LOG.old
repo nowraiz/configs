@@ -1,0 +1,7 @@
+2021/09/28-03:29:22.613 2f89 Reusing MANIFEST /home/pseudo/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/09/28-03:29:22.613 2f89 Recovering log #3
+2021/09/28-03:29:22.614 2f89 Reusing old log /home/pseudo/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000003.log 
+2021/09/28-04:15:39.416 162dd Level-0 table #5: started
+2021/09/28-04:15:39.433 162dd Level-0 table #5: 978648 bytes OK
+2021/09/28-04:15:39.440 162dd Delete type=0 #3
+2021/09/28-04:15:39.441 162dd Manual compaction at level-0 from (begin) .. (end); will stop at (end)

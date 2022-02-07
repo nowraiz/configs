@@ -1,0 +1,51 @@
+#! /bin/sh
+
+pgrep -x sxhkd > /dev/null || sxhkd &
+
+bspc monitor --reset-desktops term www dev songs pdf chat virt 8 9 10
+
+bspc config border_width         3
+bspc config window_gap          40 
+bspc config top_padding		31
+bspc config bottom_padding	20
+bspc config left_padding	35
+bspc config right_padding	35
+bspc config focus_follows_pointer       true
+bspc config history_aware_focus         true
+
+bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true 
+
+bspc desktop 'term' --layout floating 
+bspc desktop 'virt' --layout floating
+
+bspc rule --add clion			    desktop='virt' follow=on
+
+# Send to www desktop
+bspc rule --add firefox                     desktop='www' follow=on
+bspc rule --add Iceweasel                   desktop='www' follow=on
+
+# Send to dev desktop
+bspc rule --add Code                        desktop='dev' follow=on
+# add more IDE's and editors
+
+# Send to chat desktop
+bspc rule --add discord			    desktop='chat' follow=on
+bspc rule --add Caprine			    desktop='chat' follow=on
+
+# Send to songs desktop
+bspc rule --add spotify			    desktop='songs' follow=on
+bspc rule --add spt			    desktop='songs' follow=on
+
+# Send to pdf desktop
+bspc rule --add mupdf			    desktop='pdf' follow=on
+
+
+wmname LG3D
+
+$HOME/.config/polybar/launch.sh
+redshift -O 4000K # night light
+kitty
+
+

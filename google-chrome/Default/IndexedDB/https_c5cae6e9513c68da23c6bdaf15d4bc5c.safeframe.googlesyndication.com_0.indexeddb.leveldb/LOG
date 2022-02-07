@@ -1,0 +1,6 @@
+2021/09/28-21:18:29.754 4fc1 Creating DB /home/pseudo/.config/google-chrome/Default/IndexedDB/https_c5cae6e9513c68da23c6bdaf15d4bc5c.safeframe.googlesyndication.com_0.indexeddb.leveldb since it was missing.
+2021/09/28-21:18:29.767 4fc1 Reusing MANIFEST /home/pseudo/.config/google-chrome/Default/IndexedDB/https_c5cae6e9513c68da23c6bdaf15d4bc5c.safeframe.googlesyndication.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/09/28-21:18:42.591 4fc1 Level-0 table #5: started
+2021/09/28-21:18:42.596 4fc1 Level-0 table #5: 480 bytes OK
+2021/09/28-21:18:42.603 4fc1 Delete type=0 #3
+2021/09/28-21:18:42.603 4fc1 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,20 @@
+2021/09/28-18:59:14.415 6e4 Reusing MANIFEST /home/pseudo/.config/google-chrome/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/MANIFEST-000001
+2021/09/28-18:59:14.415 6e4 Recovering log #90
+2021/09/28-18:59:14.415 6e4 Reusing old log /home/pseudo/.config/google-chrome/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/000090.log 
+2021/09/28-19:00:15.781 6d8 Level-0 table #94: started
+2021/09/28-19:00:15.831 6d8 Level-0 table #94: 6546161 bytes OK
+2021/09/28-19:00:15.837 6d8 Delete type=0 #90
+2021/09/28-19:01:12.591 6d8 Level-0 table #96: started
+2021/09/28-19:01:12.645 6d8 Level-0 table #96: 6546315 bytes OK
+2021/09/28-19:01:12.652 6d8 Delete type=0 #93
+2021/09/28-19:01:12.653 6d8 Compacting 4@0 + 2@1 files
+2021/09/28-19:01:12.724 6d8 Generated table #97@0: 1 keys, 6546021 bytes
+2021/09/28-19:01:12.729 6d8 Generated table #98@0: 4 keys, 501 bytes
+2021/09/28-19:01:12.729 6d8 Compacted 4@0 + 2@1 files => 6546522 bytes
+2021/09/28-19:01:12.738 6d8 compacted to: files[ 0 2 1 0 0 0 0 ]
+2021/09/28-19:01:12.738 6d8 Delete type=2 #85
+2021/09/28-19:01:12.738 6d8 Delete type=2 #96
+2021/09/28-19:01:12.738 6d8 Delete type=2 #94
+2021/09/28-19:01:12.738 6d8 Delete type=2 #89
+2021/09/28-19:01:12.738 6d8 Delete type=2 #86
+2021/09/28-19:01:12.738 6d8 Delete type=2 #91

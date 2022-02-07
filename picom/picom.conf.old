@@ -1,0 +1,60 @@
+##############################################
+#                            _               #
+#   ___ ___  _ __ ___  _ __ | |_ ___  _ __   #
+#  / __/ _ \| '_ ` _ \| '_ \| __/ _ \| '_ \  #
+# | (_| (_) | | | | | | |_) | || (_) | | | | #
+#  \___\___/|_| |_| |_| .__/ \__\___/|_| |_| #
+#                     |_|      		     #
+#					     #
+##############################################
+
+### general settings ###
+
+backend = "glx";
+shadow-exclude = [
+        "class_g = 'i3-frame'",
+        "class_g = 'Polybar'",
+        "_NET_WM_STATE@:32a *= '_NET_WM_STATE_HIDDEN'",
+        "class_g ?= 'rofi'",
+        "_GTK_FRAME_EXTENTS@:c"
+        
+];
+
+#### opacity ####
+
+opacity-rule = [
+        "100:class_g = 'mpv'",
+        "0:_NET_WM_STATE@:32a *= '_NET_WM_STATE_HIDDEN'",
+        "85:class_g ?= 'rofi'"
+];
+
+inactive-opacity = 0.70;
+active-opacity = 0.90;
+frame-opacity = 0.90;
+inactive-opacity-override = false;
+
+#### Blur ####
+
+blur-background = true;
+blur-background-frame = true;
+blue-background-fixed = false;
+blur-size = 90;
+blur: {
+method = "gaussian";
+deviation = 10;
+}
+
+#### Window Fading ####
+
+# Fade windows during opacity changes.
+fading = true;
+# The time between steps in a fade in milliseconds. (default 10).
+fade-delta = 10;
+# Opacity change between steps while fading in. (default 0.028).
+fade-in-step = 0.06;
+# Opacity change between steps while fading out. (default 0.03).
+fade-out-step = 0.06;
+# Fade windows in/out when opening/closing
+#no-fading-openclose = true;
+fade-exclude = [ ];
+
